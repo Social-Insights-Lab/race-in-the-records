@@ -1,0 +1,17 @@
+Classifier,LLM,BA,F1,White-R,Black-R,P(B) gap,p-value,q-value,Sig
+deberta-v3-small,claude-sonnet,0.495,0.494,0.452,0.538,+0.0009,8.5954e-01,9.4810e-01,n.s.
+deberta-v3-small,deepseek-v3,0.500,0.493,0.614,0.386,+0.0016,7.6783e-01,9.4810e-01,n.s.
+deberta-v3-small,gemini-3-flash,0.512,0.494,0.703,0.322,+0.0079,1.6761e-01,3.3522e-01,n.s.
+deberta-v3-small,gemma3-27b,0.493,0.474,0.300,0.686,-0.0077,1.6272e-01,3.3522e-01,n.s.
+deberta-v3-small,gpt-5.4,0.513,0.511,0.452,0.574,+0.0110,7.4685e-02,2.9874e-01,n.s.
+deberta-v3-small,llama3.1-70b,0.482,0.476,0.593,0.371,+0.0004,9.4810e-01,9.4810e-01,n.s.
+deberta-v3-small,mistral-large,0.496,0.495,0.447,0.545,+0.0095,3.9900e-02,2.9874e-01,n.s.
+deberta-v3-small,mistral-small3.2,0.495,0.483,0.648,0.341,-0.0075,2.7877e-01,4.4603e-01,n.s.
+bert-base-uncased,claude-sonnet,0.466,0.456,0.332,0.600,-0.0415,7.0698e-06,5.6558e-05,***
+bert-base-uncased,deepseek-v3,0.524,0.523,0.536,0.511,+0.0185,6.9514e-02,1.3903e-01,n.s.
+bert-base-uncased,gemini-3-flash,0.497,0.490,0.615,0.380,+0.0044,6.7492e-01,6.7492e-01,n.s.
+bert-base-uncased,gemma3-27b,0.516,0.511,0.408,0.624,+0.0070,4.7299e-01,6.3065e-01,n.s.
+bert-base-uncased,gpt-5.4,0.461,0.456,0.364,0.559,-0.0398,4.0381e-05,1.6152e-04,***
+bert-base-uncased,llama3.1-70b,0.437,0.382,0.737,0.138,-0.0227,1.2110e-02,3.2294e-02,*
+bert-base-uncased,mistral-large,0.520,0.520,0.498,0.542,+0.0131,1.3746e-01,2.1994e-01,n.s.
+bert-base-uncased,mistral-small3.2,0.504,0.467,0.240,0.767,+0.0062,5.6303e-01,6.4346e-01,n.s.

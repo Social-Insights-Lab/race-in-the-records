@@ -1,0 +1,36 @@
+# Secrets
+notebooks/config.py
+notebooks/*/config.py
+.env
+.env.*
+*.env
+*.key
+*.pem
+credentials*.json
+service_account*.json
+
+# Withheld full-text data (available on request; never commit)
+datasets/01_raw/
+datasets/02_ocr/
+datasets/03_processed/
+Police/
+
+# Model checkpoints and large intermediates
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*_progress.json
+*_progress.csv
+
+# Python, Jupyter, OS, editors
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
